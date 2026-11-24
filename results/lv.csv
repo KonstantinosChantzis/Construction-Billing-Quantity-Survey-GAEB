@@ -1,0 +1,15 @@
+Titel;OZ;Kurztext;Menge_LV;Einheit;EP;GP_LV
+01;01.0010;Baustelle einrichten, vorhalten und räumen;1;psch;2800,0;2800,0
+01;01.0020;Verkehrssicherung nach RSA 21 vorhalten;4;Wo;450,0;1800,0
+02;02.0010;Asphaltbefestigung schneiden, d bis 12 cm;660;m;4,2;2772,0
+02;02.0020;Asphalt aufnehmen und entsorgen, d bis 12 cm;192;m²;14,5;2784,0
+02;02.0030;Gehwegplatten aufnehmen und seitlich lagern;150;m²;9,8;1470,0
+02;02.0040;Leitungsgraben ausheben, Homogenbereich B1, Tiefe bis 0,80 m;230;m³;38,0;8740,0
+02;02.0050;Kabelschutzrohr DN 50 (Speedpipe) liefern und verlegen;640;m;6,9;4416,0
+02;02.0060;Leitungszone mit Sand 0/2 herstellen;60;m³;42,0;2520,0
+02;02.0070;Graben verfüllen und lagenweise verdichten;170;m³;22,0;3740,0
+02;02.0080;Überschüssigen Boden laden und entsorgen;60;m³;31,0;1860,0
+02;02.0090;Kopfloch für Hausanschluss herstellen und verfüllen;24;St;145,0;3480,0
+03;03.0010;Frostschutzschicht 0/32 einbauen, d = 30 cm;192;m²;11,5;2208,0
+03;03.0020;Asphalttragdeckschicht AC 16 TD einbauen, d = 10 cm;192;m²;34,0;6528,0
+03;03.0030;Gehwegplatten wieder verlegen;150;m²;24,0;3600,0

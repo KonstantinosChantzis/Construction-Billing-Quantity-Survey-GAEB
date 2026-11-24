@@ -1,0 +1,15 @@
+Titel;OZ;Kurztext;Menge_LV;Einheit;EP;GP_LV;Menge_Aufmass;GP_Abrechnung;Diff_Menge;Diff_EUR;Diff_%;Hinweis
+01;01.0010;Baustelle einrichten, vorhalten und räumen;1;psch;2800,0;2800,0;1,0;2800,0;0,0;0,0;0,0;
+01;01.0020;Verkehrssicherung nach RSA 21 vorhalten;4;Wo;450,0;1800,0;5,0;2250,0;1,0;450,0;25,0;> ±10 % – VOB/B § 2 Abs. 3 prüfen
+02;02.0010;Asphaltbefestigung schneiden, d bis 12 cm;660;m;4,2;2772,0;642,6;2698,92;-17,4;-73,08;-2,6;
+02;02.0020;Asphalt aufnehmen und entsorgen, d bis 12 cm;192;m²;14,5;2784,0;208,0;3016,0;16,0;232,0;8,3;
+02;02.0030;Gehwegplatten aufnehmen und seitlich lagern;150;m²;9,8;1470,0;160,0;1568,0;10,0;98,0;6,7;
+02;02.0040;Leitungsgraben ausheben, Homogenbereich B1, Tiefe bis 0,80 m;230;m³;38,0;8740,0;204,6;7774,8;-25,4;-965,2;-11,0;> ±10 % – VOB/B § 2 Abs. 3 prüfen
+02;02.0050;Kabelschutzrohr DN 50 (Speedpipe) liefern und verlegen;640;m;6,9;4416,0;653,0;4505,7;13,0;89,7;2,0;
+02;02.0060;Leitungszone mit Sand 0/2 herstellen;60;m³;42,0;2520,0;64,0;2688,0;4,0;168,0;6,7;
+02;02.0070;Graben verfüllen und lagenweise verdichten;170;m³;22,0;3740,0;140,6;3093,2;-29,4;-646,8;-17,3;> ±10 % – VOB/B § 2 Abs. 3 prüfen
+02;02.0080;Überschüssigen Boden laden und entsorgen;60;m³;31,0;1860,0;64,0;1984,0;4,0;124,0;6,7;
+02;02.0090;Kopfloch für Hausanschluss herstellen und verfüllen;24;St;145,0;3480,0;26,0;3770,0;2,0;290,0;8,3;
+03;03.0010;Frostschutzschicht 0/32 einbauen, d = 30 cm;192;m²;11,5;2208,0;208,0;2392,0;16,0;184,0;8,3;
+03;03.0020;Asphalttragdeckschicht AC 16 TD einbauen, d = 10 cm;192;m²;34,0;6528,0;208,0;7072,0;16,0;544,0;8,3;
+03;03.0030;Gehwegplatten wieder verlegen;150;m²;24,0;3600,0;160,0;3840,0;10,0;240,0;6,7;

@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GAEB xmlns="http://www.gaeb.de/GAEB_DA_XML/DA31/3.3">
+  <GAEBInfo>
+    <Version>3.3</Version>
+    <Date>2026-11-24</Date>
+    <ProgSystem>Python / pandas (portfolio example)</ProgSystem>
+  </GAEBInfo>
+  <PrjInfo>
+    <NamePrj>Glasfaser-Tiefbau Musterstrasse (Beispiel)</NamePrj>
+  </PrjInfo>
+  <Award>
+    <DP>31</DP>
+    <BoQ>
+      <BoQBody>
+        <BoQCtgy RNoPart="01">
+          <LblTx>
+            <p>Baustelleneinrichtung und Verkehrssicherung</p>
+          </LblTx>
+          <BoQBody>
+            <Itemlist>
+              <Item RNoPart="0010">
+                <Qty>1.000</Qty>
+                <QU>psch</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Baustelle einrichten, vorhalten und räumen</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>gesamte Baustelle: pauschal</Text>
+                    <Formula>1</Formula>
+                    <Result>1.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0020">
+                <Qty>5.000</Qty>
+                <QU>Wo</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Verkehrssicherung nach RSA 21 vorhalten</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>0+000–0+640: Bauzeit 5 Wochen</Text>
+                    <Formula>5</Formula>
+                    <Result>5.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+            </Itemlist>
+          </BoQBody>
+        </BoQCtgy>
+        <BoQCtgy RNoPart="02">
+          <LblTx>
+            <p>Erdarbeiten und Leitungsbau</p>
+          </LblTx>
+          <BoQBody>
+            <Itemlist>
+              <Item RNoPart="0010">
+                <Qty>642.600</Qty>
+                <QU>m</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Asphaltbefestigung schneiden, d bis 12 cm</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>A 0+000–0+150: 2 Schnitte längs</Text>
+                    <Formula>2 * 150</Formula>
+                    <Result>300.000</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>C 0+310–0+480: 2 Schnitte längs</Text>
+                    <Formula>2 * 170</Formula>
+                    <Result>340.000</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>A, C: Querschnitte Anfang/Ende</Text>
+                    <Formula>4 * 0.65</Formula>
+                    <Result>2.600</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0020">
+                <Qty>208.000</Qty>
+                <QU>m²</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Asphalt aufnehmen und entsorgen, d bis 12 cm</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>A 0+000–0+150: L × Aufbruchbreite</Text>
+                    <Formula>1 * 150 * 0.65</Formula>
+                    <Result>97.500</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>C 0+310–0+480: L × Aufbruchbreite</Text>
+                    <Formula>1 * 170 * 0.65</Formula>
+                    <Result>110.500</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0030">
+                <Qty>160.000</Qty>
+                <QU>m²</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Gehwegplatten aufnehmen und seitlich lagern</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>B 0+150–0+310: L × Breite</Text>
+                    <Formula>1 * 160 * 0.5</Formula>
+                    <Result>80.000</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>D 0+480–0+640: L × Breite</Text>
+                    <Formula>1 * 160 * 0.5</Formula>
+                    <Result>80.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0040">
+                <Qty>204.600</Qty>
+                <QU>m³</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Leitungsgraben ausheben, Homogenbereich B1, Tiefe bis 0,80 m</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>A 0+000–0+150: L × Grabenbreite × Tiefe</Text>
+                    <Formula>1 * 150 * 0.4 * 0.85</Formula>
+                    <Result>51.000</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>B 0+150–0+310: L × Grabenbreite × Tiefe</Text>
+                    <Formula>1 * 160 * 0.4 * 0.8</Formula>
+                    <Result>51.200</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>C 0+310–0+480: L × Grabenbreite × Tiefe</Text>
+                    <Formula>1 * 170 * 0.4 * 0.8</Formula>
+                    <Result>54.400</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>D 0+480–0+640: L × Grabenbreite × Tiefe</Text>
+                    <Formula>1 * 160 * 0.4 * 0.75</Formula>
+                    <Result>48.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0050">
+                <Qty>653.000</Qty>
+                <QU>m</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Kabelschutzrohr DN 50 (Speedpipe) liefern und verlegen</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>0+000–0+640: Trassenlänge</Text>
+                    <Formula>1 * 640</Formula>
+                    <Result>640.000</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>Kopflöcher: Zuschlag Bögen/Anschluss</Text>
+                    <Formula>26 * 0.5</Formula>
+                    <Result>13.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0060">
+                <Qty>64.000</Qty>
+                <QU>m³</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Leitungszone mit Sand 0/2 herstellen</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>0+000–0+640: L × Grabenbreite × Höhe Leitungszone</Text>
+                    <Formula>1 * 640 * 0.4 * 0.25</Formula>
+                    <Result>64.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0070">
+                <Qty>140.600</Qty>
+                <QU>m³</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Graben verfüllen und lagenweise verdichten</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>A 0+000–0+150: Aushub</Text>
+                    <Formula>1 * 150 * 0.4 * 0.85</Formula>
+                    <Result>51.000</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>B 0+150–0+310: Aushub</Text>
+                    <Formula>1 * 160 * 0.4 * 0.8</Formula>
+                    <Result>51.200</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>C 0+310–0+480: Aushub</Text>
+                    <Formula>1 * 170 * 0.4 * 0.8</Formula>
+                    <Result>54.400</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>D 0+480–0+640: Aushub</Text>
+                    <Formula>1 * 160 * 0.4 * 0.75</Formula>
+                    <Result>48.000</Result>
+                  </QDetermItem>
+                  <QDetermItem>
+                    <Text>A–D: abzgl. Leitungszone</Text>
+                    <Formula>-1 * 640 * 0.4 * 0.25</Formula>
+                    <Result>-64.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0080">
+                <Qty>64.000</Qty>
+                <QU>m³</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Überschüssigen Boden laden und entsorgen</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>A–D: verdrängtes Volumen Leitungszone</Text>
+                    <Formula>1 * 640 * 0.4 * 0.25</Formula>
+                    <Result>64.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0090">
+                <Qty>26.000</Qty>
+                <QU>St</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Kopfloch für Hausanschluss herstellen und verfüllen</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>lt. Bestandsplan: Hausanschlüsse Nr. 1–26</Text>
+                    <Formula>26</Formula>
+                    <Result>26.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+            </Itemlist>
+          </BoQBody>
+        </BoQCtgy>
+        <BoQCtgy RNoPart="03">
+          <LblTx>
+            <p>Oberflächenwiederherstellung</p>
+          </LblTx>
+          <BoQBody>
+            <Itemlist>
+              <Item RNoPart="0010">
+                <Qty>208.000</Qty>
+                <QU>m²</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Frostschutzschicht 0/32 einbauen, d = 30 cm</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>A, C: wie Pos. 02.0020</Text>
+                    <Formula>1 * 320 * 0.65</Formula>
+                    <Result>208.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0020">
+                <Qty>208.000</Qty>
+                <QU>m²</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Asphalttragdeckschicht AC 16 TD einbauen, d = 10 cm</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>A, C: wie Pos. 02.0020</Text>
+                    <Formula>1 * 320 * 0.65</Formula>
+                    <Result>208.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+              <Item RNoPart="0030">
+                <Qty>160.000</Qty>
+                <QU>m²</QU>
+                <Description>
+                  <CompleteText>
+                    <OutlineText>Gehwegplatten wieder verlegen</OutlineText>
+                  </CompleteText>
+                </Description>
+                <QtyDeterm>
+                  <QDetermItem>
+                    <Text>B, D: wie Pos. 02.0030</Text>
+                    <Formula>1 * 320 * 0.5</Formula>
+                    <Result>160.000</Result>
+                  </QDetermItem>
+                </QtyDeterm>
+              </Item>
+            </Itemlist>
+          </BoQBody>
+        </BoQCtgy>
+      </BoQBody>
+    </BoQ>
+  </Award>
+</GAEB>

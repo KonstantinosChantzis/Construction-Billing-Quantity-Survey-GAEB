@@ -1,0 +1,27 @@
+OZ;Zeile;Ort;Rechenansatz;Anzahl;Laenge;Breite;Hoehe;Menge
+01.0010;1;gesamte Baustelle;pauschal;1;;;;1,0
+01.0020;1;0+000–0+640;Bauzeit 5 Wochen;5;;;;5,0
+02.0010;1;A 0+000–0+150;2 Schnitte längs;2;150,0;;;300,0
+02.0010;2;C 0+310–0+480;2 Schnitte längs;2;170,0;;;340,0
+02.0010;3;A, C;Querschnitte Anfang/Ende;4;0,65;;;2,6
+02.0020;1;A 0+000–0+150;L × Aufbruchbreite;1;150,0;0,65;;97,5
+02.0020;2;C 0+310–0+480;L × Aufbruchbreite;1;170,0;0,65;;110,5
+02.0030;1;B 0+150–0+310;L × Breite;1;160,0;0,5;;80,0
+02.0030;2;D 0+480–0+640;L × Breite;1;160,0;0,5;;80,0
+02.0040;1;A 0+000–0+150;L × Grabenbreite × Tiefe;1;150,0;0,4;0,85;51,0
+02.0040;2;B 0+150–0+310;L × Grabenbreite × Tiefe;1;160,0;0,4;0,8;51,2
+02.0040;3;C 0+310–0+480;L × Grabenbreite × Tiefe;1;170,0;0,4;0,8;54,4
+02.0040;4;D 0+480–0+640;L × Grabenbreite × Tiefe;1;160,0;0,4;0,75;48,0
+02.0050;1;0+000–0+640;Trassenlänge;1;640,0;;;640,0
+02.0050;2;Kopflöcher;Zuschlag Bögen/Anschluss;26;0,5;;;13,0
+02.0060;1;0+000–0+640;L × Grabenbreite × Höhe Leitungszone;1;640,0;0,4;0,25;64,0
+02.0070;1;A 0+000–0+150;Aushub;1;150,0;0,4;0,85;51,0
+02.0070;2;B 0+150–0+310;Aushub;1;160,0;0,4;0,8;51,2
+02.0070;3;C 0+310–0+480;Aushub;1;170,0;0,4;0,8;54,4
+02.0070;4;D 0+480–0+640;Aushub;1;160,0;0,4;0,75;48,0
+02.0070;5;A–D;abzgl. Leitungszone;-1;640,0;0,4;0,25;-64,0
+02.0080;1;A–D;verdrängtes Volumen Leitungszone;1;640,0;0,4;0,25;64,0
+02.0090;1;lt. Bestandsplan;Hausanschlüsse Nr. 1–26;26;;;;26,0
+03.0010;1;A, C;wie Pos. 02.0020;1;320,0;0,65;;208,0
+03.0020;1;A, C;wie Pos. 02.0020;1;320,0;0,65;;208,0
+03.0030;1;B, D;wie Pos. 02.0030;1;320,0;0,5;;160,0
